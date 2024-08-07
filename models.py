@@ -15,7 +15,7 @@ class Admin(BaseModel):
     class Config:
         schema_extra = {
             "example": {
-                "id":"123123",
+                "_id":"123123",
                 "type": "admin",
                 "name": "admin 1",
                 "user_id": "admin001",
@@ -34,7 +34,7 @@ class Doctor(BaseModel):
     class Config:
         schema_extra = {
             "example": {
-                "id":"123123",
+                "_id":"123123",
                 "type": "doctor",
                 "name": "doctor 1",
                 "user_id": "doctor001",
@@ -58,7 +58,7 @@ class Patient(BaseModel):
     class Config:
         schema_extra = {
             "example": {
-                "id":"123123",
+                "_id":"123123",
                 "type": "patient",
                 "name": "patien 1",
                 "user_id": "patient001",
